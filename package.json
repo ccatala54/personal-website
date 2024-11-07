@@ -1,7 +1,7 @@
 {
   "name": "catalinacatalaproyect",
   "version": "1.0.0",
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
     "lint": "eslint .",
     "build": "npx parcel build",
