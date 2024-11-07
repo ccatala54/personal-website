@@ -1,18 +1,23 @@
 {
   "name": "catalinacatalaproyect",
   "version": "1.0.0",
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
     "lint": "eslint .",
     "build": "npx parcel build",
     "start": "npx parcel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.11.0",
+    "parcel": "^2.12.0",
+    "typescript-eslint": "^8.10.0"
   },
+
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "ansi-styles": "^4.3.0",
