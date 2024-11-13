@@ -107,17 +107,20 @@
     <footer id="contact" class="info-form">
 
         <h2>Contactarme</h2>
-        <form action="#">
+        <form action="https://formsubmit.co/catalinacatalanaro@gmail.com" method="POST" />
             <div class="introducir-box">
-                <input type="text" placeholder="Nombre completo">
-                <input type="email" placeholder="Email">
+                <input type="text"  name="Nombre" placeholder="Nombre completo">
+                <input type="email"  name="Email" placeholder="Email">
             </div>
             <div class="introducir-box">
-                <input type="number" placeholder="Numero de telefono">
+                <input type="number"  name="Telefono" placeholder="Numero de telefono">
                 <input type="text" placeholder="Sujeto">
             </div>
-            <textarea cols="30" rows="10" placeholder="Mensage"></textarea>
-            <input type="submit" value="Send Message" class="boton-3">
+            <textarea cols="30" rows="10"></textarea>
+            <input type="submit"  name="Mensage" placeholder="Mensage" class="boton-3">
+            
+            <input type="hidden" name="_next" value="https://personal-website-ccatala.netlify.app/">
+
         </form>
     </footer>
 </body>
